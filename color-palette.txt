@@ -1,0 +1,4 @@
+/* Color palete
+  purple: #6415ff;
+
+*/
