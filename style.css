@@ -301,7 +301,7 @@ section {
   width: 50%;
   max-width: 540px;
   margin-right: 64px;
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
 }
 #quality .section__title, #values .section__title {
   line-height: 1.25;
@@ -313,7 +313,8 @@ section {
   position: relative;
   z-index: 3;
   display: flex;
-  border: 2px solid purple;
+  border: 2px solid #e5e7eb;
+  border-radius: 4px;
 }
 .quality__img {
   width: 100%;
@@ -352,3 +353,83 @@ section {
 /* ██████████████████████████████████████████████████████████████████████ */
 /* ██████████████████████████████████████████████████████████████████████ */
 /* ###  STEPS SECTION START ### */
+#steps .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#steps .section__title {
+  display: flex;
+}
+.steps__img--wrapper, .steps__description {
+  width: 50%;
+}
+
+.steps__img--wrapper {
+  border: solid pink 1px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+}
+.steps__img {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+.steps__img--dot__pattern {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  z-index: 1;
+  bottom: -75px;
+  left: 245px
+  
+}
+.steps__description {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 0 32px 64px;
+
+  border: solid pink 1px;
+}
+
+.step {
+  display: flex;
+  margin-top: 32px;
+}
+.step--num {
+  margin-right: 24px;
+  margin-bottom: 24px;
+  font-size: 36px;
+  color:rgba(124, 139, 161, 0.4);
+  line-height: 1;
+  letter-spacing: 0.05em;
+}
+
+.step:nth-child(1) .step--num {
+  margin-right: 31px;
+}
+.step:nth-child(3) .step--num {
+  margin-right: 23px;
+}
+
+
+.step__description {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  /* border: orange solid 1px; */
+}
+.step--header {
+  font-weight: 600;
+  font-size: 20px;
+  color: #243e63;
+  line-height: 1;
+}
+.step--para {
+  font-size: 14px;
+  color: #718096;
+  margin-top: 12px;
+  font-weight: 500;
+  line-height: 2;
+}
