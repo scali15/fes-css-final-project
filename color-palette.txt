@@ -1,4 +1,4 @@
-/* Color palete
-  purple: #6415ff;
+purple: #6415ff
+light grey: #7c8ba1;
 
-*/
+extra light gray: #e5e7eb

@@ -1,0 +1,5 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Regular Grid dot pattern">
+  <rect width="240" height="240" fill="#ffffff"/>
+  <defs><pattern id="svgdot-pattern" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r="5" fill="#6415ff" fill-opacity="1"/></pattern></defs>
+  <rect width="240" height="240" fill="url(#svgdot-pattern)"/>
+</svg>
